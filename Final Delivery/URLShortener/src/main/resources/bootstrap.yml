@@ -1,0 +1,44 @@
+server:
+  port: 9091
+  servlet: 
+    context-path: /v1
+    
+    
+logging:
+  level:
+    org.springframework: ERROR
+    com.rsystems: DEBUG
+  file: /data/logs/urlshortner.log
+  
+  
+spring:
+  application:
+    name: url-shortener
+  jpa:
+    hibernate:
+      dll-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+        format_sql: true
+      hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+      show-sql: true
+  cloud:
+    config:
+      uri: http://${env_var_name}:8888
+      fail-fast: true
+      username: user
+      password: 1234
+  datasource:
+    url: jdbc:mysql://${env_var_name}:3306/urlshortner
+    username: root
+    password: root123
+    
+
+      
+
+  
+    
+    

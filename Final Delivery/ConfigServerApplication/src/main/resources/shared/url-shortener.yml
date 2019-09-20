@@ -1,0 +1,14 @@
+server:
+  port: 9091
+  servlet: 
+    context-path: /v1
+    
+    
+logging:
+  level:
+    org.springframework: ERROR
+    com.rsystems: DEBUG
+  file: /data/urlshortner.log
+  
+    
+    

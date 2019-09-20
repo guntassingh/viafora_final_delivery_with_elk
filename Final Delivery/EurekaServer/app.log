@@ -1,0 +1,50 @@
+2019-09-19 13:11:08.612  INFO [registry-service #name of the application,,,] 21488 --- [main] c.r.a.EurekaServerApplicationTests       : No active profile set, falling back to default profiles: default
+2019-09-19 13:11:09.900  WARN [registry-service #name of the application,,,] 21488 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-19 13:11:09.901  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-19 13:11:09.908  WARN [registry-service #name of the application,,,] 21488 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-19 13:11:09.908  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-19 13:11:12.194  INFO [registry-service #name of the application,,,] 21488 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-09-19 13:11:12.196  INFO [registry-service #name of the application,,,] 21488 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-09-19 13:11:12.204  INFO [registry-service #name of the application,,,] 21488 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1568878872203 with initial instances count: 0
+2019-09-19 13:11:12.256  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-09-19 13:11:12.259  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://10.191.90.125:8761/eureka/]
+2019-09-19 13:11:12.551  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-09-19 13:11:12.551  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-09-19 13:11:12.551  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-09-19 13:11:12.551  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-09-19 13:11:12.685  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://10.191.90.125:8761/eureka/
+2019-09-19 13:11:12.691  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-09-19 13:11:12.692  INFO [registry-service #name of the application,,,] 21488 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-09-19 13:11:12.966  INFO [registry-service #name of the application,,,] 21488 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-09-19 13:11:12.967  INFO [registry-service #name of the application,,,] 21488 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-09-19 13:11:12.967  INFO [registry-service #name of the application,,,] 21488 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-09-19 13:11:12.971  INFO [registry-service #name of the application,,,] 21488 --- [main] c.r.a.EurekaServerApplicationTests       : Started EurekaServerApplicationTests in 5.567 seconds (JVM running for 6.168)
+2019-09-19 13:11:13.146  INFO [registry-service #name of the application,,,] 21488 --- [Thread-12] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-09-19 13:11:13.148  INFO [registry-service #name of the application,,,] 21488 --- [Thread-12] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-09-19 13:11:13.153  INFO [registry-service #name of the application,,,] 21488 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-09-19 13:11:13.153  INFO [registry-service #name of the application,,,] 21488 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-09-19 13:16:23.289  INFO [registry-service #name of the application,,,] 22088 --- [main] c.r.a.EurekaServerApplicationTests       : No active profile set, falling back to default profiles: default
+2019-09-19 13:16:24.556  WARN [registry-service #name of the application,,,] 22088 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-19 13:16:24.557  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-19 13:16:24.562  WARN [registry-service #name of the application,,,] 22088 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-19 13:16:24.562  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-19 13:16:26.848  INFO [registry-service #name of the application,,,] 22088 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-09-19 13:16:26.849  INFO [registry-service #name of the application,,,] 22088 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-09-19 13:16:26.858  INFO [registry-service #name of the application,,,] 22088 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1568879186858 with initial instances count: 0
+2019-09-19 13:16:26.912  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-09-19 13:16:26.914  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://10.191.90.125:8761/eureka/]
+2019-09-19 13:16:27.203  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-09-19 13:16:27.203  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-09-19 13:16:27.204  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-09-19 13:16:27.204  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-09-19 13:16:27.326  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://10.191.90.125:8761/eureka/
+2019-09-19 13:16:27.332  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-09-19 13:16:27.333  INFO [registry-service #name of the application,,,] 22088 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-09-19 13:16:27.601  INFO [registry-service #name of the application,,,] 22088 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-09-19 13:16:27.601  INFO [registry-service #name of the application,,,] 22088 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-09-19 13:16:27.601  INFO [registry-service #name of the application,,,] 22088 --- [Thread-11] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-09-19 13:16:27.602  INFO [registry-service #name of the application,,,] 22088 --- [main] c.r.a.EurekaServerApplicationTests       : Started EurekaServerApplicationTests in 5.375 seconds (JVM running for 5.972)
+2019-09-19 13:16:27.790  INFO [registry-service #name of the application,,,] 22088 --- [Thread-12] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-09-19 13:16:27.793  INFO [registry-service #name of the application,,,] 22088 --- [Thread-12] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-09-19 13:16:27.800  INFO [registry-service #name of the application,,,] 22088 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-09-19 13:16:27.800  INFO [registry-service #name of the application,,,] 22088 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
