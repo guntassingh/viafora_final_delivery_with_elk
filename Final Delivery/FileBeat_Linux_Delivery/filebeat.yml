@@ -1,0 +1,10 @@
+filebeat.inputs:
+ - type: docker
+   containers.ids: '*'
+   processors:
+    - add_docker_metadata: ~
+
+
+output.elasticsearch:
+ hosts: ["http://127.0.0.1:9200"]
+
